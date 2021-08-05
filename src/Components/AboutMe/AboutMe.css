@@ -15,7 +15,7 @@
 .col-left {
     width: 30%;
     box-sizing: border-box;
-    padding: 30px 0;
+    padding: 50px 0;
     /* background-color: aliceblue; */
 
 }
@@ -31,14 +31,28 @@
 #img-me {
     width: 300px;
     border-radius: 50%;
+    margin: 10px 0;
 }
 #about-me-p {
-    width: 80%;
+    width: 90%;
     text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+.pern-expanded {
+   display: none;
+}
+.pern {
+    text-decoration: underline;
+}
+.pern:hover {
+    cursor: pointer;
+}
+.pern:hover ~ .pern-expanded {
+    display: inline;
 }
 .skills-container {
-    /* background-color: aliceblue; */
-    width: 100%;
+    width: 90%;
     box-sizing: border-box;
     padding: 10px ;
     display: flex;
@@ -52,12 +66,14 @@
     justify-content: space-between;
     margin:  5px 0;
 }
+.skill label {
+    width: 30%;
+    text-align: left;
+}
 .skill-bar {
     width: 70%;
     height: 20px;
     background-color:  #4d4d52;
-    /* border: 1px solid #a9a9b3 ; */
-    /* box-shadow: 1px 1px 5px  #39393a ; */
     border-radius: 10px;
 }
 .skill-fill {
@@ -104,4 +120,15 @@
 }
 #skill-php {
     width: 40%;
+}
+
+a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #a9a9b3;
+}
+a:visited {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #a9a9b3;
 }

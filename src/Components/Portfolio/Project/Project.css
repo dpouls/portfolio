@@ -1,0 +1,24 @@
+.project-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: #313133;
+}
+.project-details {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 60%;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+.main-project-img {
+    width: 40%;
+}
+#tech-used-header {
+
+}

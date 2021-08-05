@@ -3,6 +3,11 @@
   background-color: #292a2d;
   min-height: 100vh;
   color: #a9a9b3;
+  
 }
 
-
+.content-container {
+  
+    display: flex;
+    flex-direction: column;
+}
