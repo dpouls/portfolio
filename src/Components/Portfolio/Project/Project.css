@@ -17,8 +17,14 @@ h3 {
     text-decoration: underline;
 }
 .main-project-img {
-    width: 40%;
+    height: 300px;
+    width: 35%;
+    object-fit: cover
+}
+ul {
+    margin: 0;
+    padding: 0;
 }
 #tech-used-header {
-
+    text-decoration: underline;
 }

@@ -1,5 +1,5 @@
 import './AboutMe.css';
-import me from '../../resources/me.jpg'
+// import me from '../../resources/me.jpg'
 import NewSkills from './Skills/NewSkills';
 import Skills from './Skills/Skills';
 import Tools from '../Tools/Tools';
@@ -9,7 +9,7 @@ function AboutMe() {
   return (
     <div className="about-me">
         <div className="about-col col-left">
-            <img id="img-me" src={me} alt="Photo of Dallin Poulson" />
+            <img id="img-me" src='/images/me.jpg' alt="Dallin Poulson" />
             <br />
             <br />
             <h1>Dallin Poulson</h1>

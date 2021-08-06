@@ -7,7 +7,7 @@ function Project(props) {
     <section className="project-card">
       <img
         className="main-project-img"
-        src="https://blog.addthiscdn.com/wp-content/uploads/2018/05/11124555/3-Things-Great-Websites-Have-in-Common1-672x372.png"
+        src={projectInfo.imgUrl}
         alt=""
       />
       <div className="project-details">
