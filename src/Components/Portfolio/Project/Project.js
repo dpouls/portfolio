@@ -11,7 +11,7 @@ function Project(props) {
         alt=""
       />
       <div className="project-details">
-        <h3>{projectInfo.title}</h3>
+        <h3><a target="_blank" href={projectInfo.liveUrl}>{projectInfo.title}</a></h3>
         <p>{projectInfo.desc}</p>
         <strong id='tech-used-header'>Tech Used</strong>
         <ul>
