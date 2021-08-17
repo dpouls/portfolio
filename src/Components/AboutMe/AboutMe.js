@@ -1,13 +1,18 @@
+import { react } from '@babel/types';
+import {useState, useEffect} from 'react';
 import './AboutMe.css';
+
 // import me from '../../resources/me.jpg'
 import NewSkills from './Skills/NewSkills';
 import Skills from './Skills/Skills';
 import Tools from '../Tools/Tools';
 
 
+
 function AboutMe() {
+  const [CvClicked, setCvClicked] = useState(false)
   return (
-    <div className="about-me">
+    <div id='about-me' className="about-me">
         <div className="about-col col-left">
             <img id="img-me" src='/images/me.jpg' alt="Dallin Poulson" />
             <br />
@@ -31,9 +36,13 @@ function AboutMe() {
             I spend my free time with my wife, Abby, and my little golden doodle Honey. We like to go to the mountains and play games with friends and family!
             <br />
             <br />
-            Check out my<strong> <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1eyPgRF4msV1CBpB7d78mAK7gl_DEtbGm/view?usp=sharing">Resume/CV</a></strong>!
+            Check out my <strong><span onClick={() => setCvClicked(!CvClicked)} id='cv'>Resume/CV!</span></strong>!
             </p>
+            {CvClicked ? (
+              <iframe src="https://drive.google.com/file/d/1eyPgRF4msV1CBpB7d78mAK7gl_DEtbGm/preview" width="100%" height="480" allow="autoplay"></iframe>
             
+            
+            ) : null}
 
             <Skills/>
             <NewSkills/>

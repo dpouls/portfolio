@@ -22,7 +22,7 @@ function Portfolio() {
         techUsed: ['React','Node','Express','PosgreSQL','Stripe Payments','React Bootstrap','Sass','NPM Packages',' Encrypted authorization.']
     },]
     return (
-        <div className="portfolio-container">
+        <div id='projects' className="portfolio-container">
             <h1 id='projects-header'>Projects</h1>
             {projectInfo.map((p,i) => {
                 return (

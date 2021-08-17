@@ -6,9 +6,9 @@ function Header() {
       <h1><span>Dallin Poulson</span></h1>
       <nav className="nav-container">
           <ul className='nav-links'>
-              <a>About Me</a>
-              <a>Projects</a>
-              <a>Contact</a>
+              <a className='header-links' href="#about-me">About Me</a>
+              <a className='header-links' href="#projects">Projects</a>
+              <a className='header-links' href="#contact">Contact</a>
           </ul>
       </nav>
     </header>

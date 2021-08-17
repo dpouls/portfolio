@@ -6,13 +6,14 @@ import Portfolio from './Components/Portfolio/Portfolio';
 
 function App() {
   return (
-    <div className="App">
+    <div id="top" className="App">
       <Header/>
       <Tools/>
       <main className="content-container">
       <AboutMe/>
       <Portfolio/>
       </main>
+      <a id='back-to-top' href="#top">Back to Top</a>
     </div>
   );
 }

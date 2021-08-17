@@ -21,15 +21,13 @@ h3 {
     height: 300px;
     width: 35%;
     object-fit: cover;
-    transition: 1s;
+    transition: .5s;
 }
 ul {
     margin: 0;
     padding: 0;
 }
-hr {
-    color: #266bd3;
-}
+
 #tech-used-header {
     text-decoration: underline;
     margin: 10px 0px;

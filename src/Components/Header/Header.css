@@ -20,4 +20,9 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+  scroll-behavior: smooth;
+
+}
+.header-links:hover {
+    color: #266bd3;
 }
