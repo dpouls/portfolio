@@ -1,11 +1,11 @@
-import { react } from '@babel/types';
-import {useState, useEffect} from 'react';
+import React from 'react';
+import {useState} from 'react';
 import './AboutMe.css';
 
 // import me from '../../resources/me.jpg'
 import NewSkills from './Skills/NewSkills';
 import Skills from './Skills/Skills';
-import Tools from '../Tools/Tools';
+
 
 
 
@@ -36,7 +36,8 @@ function AboutMe() {
             I spend my free time with my wife, Abby, and my little golden doodle Honey. We like to go to the mountains and play games with friends and family!
             <br />
             <br />
-            Check out my <strong><span onClick={() => setCvClicked(!CvClicked)} id='cv'>Resume/CV!</span></strong>!
+            <p>I am currently looking for employment as a web developer or intern.</p>
+            Check out my <strong><span onClick={() => setCvClicked(!CvClicked)} id='cv'>Resume/CV</span></strong>!
             </p>
             {CvClicked ? (
               <iframe src="https://drive.google.com/file/d/1eyPgRF4msV1CBpB7d78mAK7gl_DEtbGm/preview" width="100%" height="480" allow="autoplay"></iframe>

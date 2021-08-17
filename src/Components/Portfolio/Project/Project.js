@@ -8,10 +8,10 @@ function Project(props) {
       <img
         className="main-project-img"
         src={projectInfo.imgUrl}
-        alt=""
+        alt={projectInfo.title}
       />
       <div className="project-details">
-        <h3 class='live-project-link'><a  target="_blank" rel="noreferrer" href={projectInfo.liveUrl}>{projectInfo.title}</a></h3>
+        <h3 class='live-project-link'><a  id='project-name' target="_blank" rel="noreferrer" href={projectInfo.liveUrl}>{projectInfo.title}</a></h3>
         <p>{projectInfo.desc}</p>
         <strong id='tech-used-header'>Tech Used</strong>
         <ul>

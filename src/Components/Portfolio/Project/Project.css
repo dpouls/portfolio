@@ -4,6 +4,7 @@
     margin: 10px;
     background-color: #313133;
     transition: all 1s;
+    min-height: 300px;
 }
 .project-details {
     display: flex;
@@ -12,16 +13,22 @@
     padding: 10px;
     width: 60%;
 }
+h1 {
+    color: rgb(207, 207, 207);
+}
 h3 {
     margin: 0;
     padding: 0;
     text-decoration: underline;
 }
+#project-name {
+    font-size: xx-large;
+    color: rgb(204, 203, 203);
+}
 .main-project-img {
     height: 300px;
     width: 35%;
     object-fit: cover;
-    transition: .5s;
 }
 ul {
     margin: 0;
@@ -36,7 +43,7 @@ ul {
     color: #266bd3;
 }
 .project-card:hover {
-    box-shadow: 4px 4px 4px 5px #266bd3;
+    box-shadow: 4px 4px 4px 5px #1d52a3;
     transform: scale(1.01)
 }
 .main-project-img:hover {
