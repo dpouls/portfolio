@@ -27,8 +27,15 @@ hr {
     align-items: center;
     width: 30%;
     font-size: x-large;
+    
+}
+.contact-text {
+    width: 50%;
     text-align: left;
 }
 .social-link {
+    color: #292a2d; 
+}
+.social-link:visited {
     color: #292a2d; 
 }
