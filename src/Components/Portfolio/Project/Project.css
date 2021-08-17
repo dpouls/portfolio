@@ -3,6 +3,7 @@
     justify-content: space-between;
     margin: 10px;
     background-color: #313133;
+    transition: all 1s;
 }
 .project-details {
     display: flex;
@@ -19,12 +20,27 @@ h3 {
 .main-project-img {
     height: 300px;
     width: 35%;
-    object-fit: cover
+    object-fit: cover;
+    transition: 1s;
 }
 ul {
     margin: 0;
     padding: 0;
 }
+hr {
+    color: #266bd3;
+}
 #tech-used-header {
     text-decoration: underline;
+    margin: 10px 0px;
+}
+.live-project-link:hover {
+    color: #266bd3;
+}
+.project-card:hover {
+    box-shadow: 4px 4px 4px 5px #266bd3;
+    transform: scale(1.01)
+}
+.main-project-img:hover {
+   
 }

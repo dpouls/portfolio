@@ -31,7 +31,7 @@ function AboutMe() {
             I spend my free time with my wife, Abby, and my little golden doodle Honey. We like to go to the mountains and play games with friends and family!
             <br />
             <br />
-            Check out my <a target="_blank" href="https://drive.google.com/file/d/1eyPgRF4msV1CBpB7d78mAK7gl_DEtbGm/view?usp=sharing">Resume/CV</a>!
+            Check out my<strong> <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1eyPgRF4msV1CBpB7d78mAK7gl_DEtbGm/view?usp=sharing">Resume/CV</a></strong>!
             </p>
             
 
