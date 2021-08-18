@@ -46,6 +46,30 @@ ul {
     box-shadow: 4px 4px 4px 5px #1d52a3;
     transform: scale(1.01)
 }
-.main-project-img:hover {
-   
+@media only screen and (max-width: 600px) {
+    .project-card {
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 5px;
+
+    }
+    .project-details {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 30px;
+        width: 100%;
+    }
+    .main-project-img {
+        width: 100%;
+        /* object-fit: cover; */
+    }
+    #project-name {
+        width: 100%;
+        margin-bottom: 5px;
+        /* text-align: center; */
+    }
+    .live-project-link {
+        text-align: center;
+    }
 }

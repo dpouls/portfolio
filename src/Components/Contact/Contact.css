@@ -1,6 +1,7 @@
 .contact-container {
-    margin: 20px 0;
-    padding: 60px;
+    width: 100%;
+    /* margin: 20px 0; */
+    /* padding: 60px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,3 +40,19 @@ hr {
 .social-link:visited {
     color: #292a2d; 
 }
+
+@media only screen and (max-width: 600px) {
+    .contact-section {
+        margin: 5px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        font-size: large;
+        
+    }
+    .contact-text {
+        width: 70%;
+        text-align: left;
+    }
+  }
