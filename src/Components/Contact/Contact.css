@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
     background-color: #a9a9b3;
     color: #292a2d;
 }
@@ -50,7 +51,26 @@ label {
     color: #292a2d; 
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1024px) {
+    .contact-section {
+        margin: 5px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        font-size: large;
+        /* padding: 0; */
+    }
+    .contact-type {
+        width: 30%;
+    }
+    .contact-text {
+        width: 70%;
+        text-align: left;
+    }
+  }
+  @media only screen and (max-width: 600px) {
     .contact-section {
         margin: 5px 0;
         display: flex;
@@ -58,6 +78,24 @@ label {
         align-items: center;
         width: 90%;
         font-size: large;
+        /* padding: 0; */
+    }
+    .contact-type {
+        width: 30%;
+    }
+    .contact-text {
+        width: 70%;
+        text-align: left;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .contact-section {
+        margin: 5px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        font-size: medium;
         /* padding: 0; */
     }
     .contact-type {
