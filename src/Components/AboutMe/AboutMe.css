@@ -23,6 +23,9 @@
     width: 69%;
 
 }
+#my-name {
+    color: rgb(190, 190, 190);
+}
 .about-me-header {
     font-size: xx-large;
     margin: 10px;

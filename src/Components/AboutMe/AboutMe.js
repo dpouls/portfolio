@@ -17,7 +17,7 @@ function AboutMe() {
             <img id="img-me" src='/images/me.jpg' alt="Dallin Poulson" />
             <br />
             <br />
-            <h1>Dallin Poulson</h1>
+            <h1 id='my-name'>Dallin Poulson</h1>
             <p>Provo, UT</p>
             <p><a href="tel:3852004172">385.200.4172</a></p>
             <p><a href="mailto: dallinpoulson@gmail.com">dallinpoulson@gmail.com</a></p>
