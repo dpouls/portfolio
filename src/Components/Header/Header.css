@@ -29,3 +29,17 @@
 .header-links:hover {
     color: #266bd3;
 }
+
+@media only screen and (max-width: 600px) {
+    .Header {
+        flex-direction: column;
+    }
+    .nav-container {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #page-title {
+        
+        margin-top: 10px;
+    }
+}

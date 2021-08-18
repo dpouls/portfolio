@@ -34,3 +34,9 @@ p {
 #clickable-tool {
     color: rgb(255, 255, 255);
 }
+
+@media only screen and (max-width: 600px) {
+    .tools-container {
+        display: none;
+    }
+  }
