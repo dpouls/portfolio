@@ -43,7 +43,7 @@ function Contact() {
             {contactInfo.map((ci,i) => {
                 return (
                 <div className='contact-section'>
-                <label><strong>{ci.type}</strong></label>
+                <label className='contact-type'><strong>{ci.type}:</strong></label>
                 <p className='contact-text'><a target="_blank" rel="noreferrer" className='social-link' href={ci.link}>{ci.text}</a></p>
                 </div>
                 )

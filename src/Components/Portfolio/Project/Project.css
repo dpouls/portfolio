@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 10px;
-    background-color: #313133;
+    background-color: #3e3e41;
     transition: all 1s;
     min-height: 300px;
 }

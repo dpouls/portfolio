@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
     return (
         <footer>
-            <h2>Dallin Poulson - 2021</h2>
+            <h2 id='footer-text'>Dallin Poulson - 2021</h2>
         </footer>
     )
 }
