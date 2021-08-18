@@ -6,7 +6,7 @@ function Portfolio() {
         imgUrl: '/images/sunny/discover.png',
         liveUrl: 'http://147.182.251.51:7000/',
         title: 'Sunny',
-        desc : "Personal project. Instagram website clone where users upload images of sunsets, follow others, and discover new content.",
+        desc : "Personal project. Instagram website clone where users upload images of sunsets, follow others, and discover new content. Test account username and password: asdf",
         techUsed: ['React','Node','Express','PosgreSQL','Redux','Sass','NPM Packages',' Encrypted authorization','AWS S3 Bucket']
     },{
         imgUrl: '/images/moneta/1.png',

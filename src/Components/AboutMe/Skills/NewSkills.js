@@ -6,27 +6,27 @@ function NewSkills() {
             
                 <h1 className="about-me-header">Newer Skills</h1>
                 <div className='skill'>
+                    <label>MySQL - SQLServer  - NoSQL</label>
+                    <div className="skill-bar" >
+                        <div className="skill-fill" id='skill-mysql'>60%</div>
+                    </div>
+                </div>
+                <div className='skill'>
                     <label>Redux</label>
                     <div className="skill-bar" >
-                        <div className="skill-fill" id='skill-rx'>70%</div>
+                        <div className="skill-fill" id='skill-rx'>50%</div>
                     </div>
                 </div>
                 <div className='skill'>
                     <label>C# - ASP.NET</label>
                     <div className="skill-bar" >
-                        <div className="skill-fill"  id='skill-asp'>75%</div>
+                        <div className="skill-fill"  id='skill-asp'>50%</div>
                     </div>
                 </div>
                 <div className='skill'>
                     <label>C# - Xamarin Forms</label>
                     <div className="skill-bar" >
-                        <div className="skill-fill"  id='skill-xam'>75%</div>
-                    </div>
-                </div>
-                <div className='skill'>
-                    <label>MySQL - SQLServer  - NoSQL</label>
-                    <div className="skill-bar" >
-                        <div className="skill-fill" id='skill-mysql'>60%</div>
+                        <div className="skill-fill"  id='skill-xam'>50%</div>
                     </div>
                 </div>
                 <div className='skill'>

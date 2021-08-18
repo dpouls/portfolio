@@ -19,8 +19,8 @@ function AboutMe() {
             <br />
             <h1>Dallin Poulson</h1>
             <p>Provo, UT</p>
-            <p>385.200.4172</p>
-            <p>dallinpoulson@gmail.com</p>
+            <p><a href="tel:3852004172">385.200.4172</a></p>
+            <p><a href="mailto: dallinpoulson@gmail.com">dallinpoulson@gmail.com</a></p>
             <br />
             <p>Utah Valley University 2022</p>
             <p>Information Systems<br/> Web and Application Development</p>

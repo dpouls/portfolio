@@ -29,7 +29,7 @@
     font-weight: bold;
 }
 #img-me {
-    width: 300px;
+    width: 90%;
     border-radius: 50%;
     margin: 10px 0;
 }
@@ -127,13 +127,13 @@
 }
 
 #skill-rx {
-    width: 70%; 
+    width: 50%; 
 }
 #skill-asp {
-    width: 75%;
+    width: 50%;
 }
 #skill-xam {
-    width: 75%;
+    width: 50%;
 }
 #skill-mysql {
     width: 60%;

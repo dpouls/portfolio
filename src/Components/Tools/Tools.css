@@ -31,3 +31,6 @@ p {
     margin: 0;
     padding: 0;
 }
+#clickable-tool {
+    color: rgb(255, 255, 255);
+}
