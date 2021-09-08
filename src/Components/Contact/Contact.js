@@ -19,7 +19,7 @@ function Contact() {
     {
         type: 'LinkedIn',
         text: 'linkedin.com/in/dallinpoulson',
-        link: 'www.linkedin.com/in/dallinpoulson'
+        link: 'www.linkedin.com/in/dpouls'
     },
     {
         type: 'CodeWars',
