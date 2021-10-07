@@ -3,13 +3,13 @@ import './Portfolio.css';
 import Project from './Project/Project';
 function Portfolio() {
     let projectInfo = [ {
-        imgUrl: '/images/sunny/discover.png',
+        imgUrl: '/images/sunny/discover.PNG',
         liveUrl: 'http://147.182.251.51:7000/',
         title: 'Sunny',
         desc : "Personal project. Instagram website clone where users upload images of sunsets, follow others, and discover new content. Test account username and password: asdf",
         techUsed: ['React','Node','Express','PosgreSQL','Redux','Sass','NPM Packages',' Encrypted authentication','AWS S3 Bucket']
     },{
-        imgUrl: '/images/moneta/1.png',
+        imgUrl: '/images/moneta/1.PNG',
         liveUrl: 'http://147.182.251.51:6789/',
         title: 'Moneta',
         desc : "Group project. Point of Sale system for a small Ice Cream Shop, CRUD operations, Stripe Payments, and admin controls to allow products/employees to be created/edited/deleted. Created the front and back end of the main cart page, the receipt, customer data, and some other features. Test Account username and password: asdf",
